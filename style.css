@@ -19,12 +19,12 @@ de terminal.*/
     font-weight:normal
 }
 
-.global{
-    /* Mise en page centrée */
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:42em;
+body{
+    display:flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    justify-content: center;
 
     background-color:#282a36;
     color:#f8f8f2;
@@ -34,84 +34,30 @@ de terminal.*/
     font-size:16px;
 }
 
-h1{
-    display: inline;
-    font-family:'Fira Mono', monospace;
-    color:#50fa7b;
-    font-weight:bold;
-    font-size:24px;
-}
-.h1white{
-    display: inherit;
-    font-family:'Fira Mono', monospace;
-    color:#f8f8f2;
-    font-weight:bold;
-    font-size:24px;
+header {
+    width: 100%;
+    background-color: #44475a;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.neofetch{
-    display:inline-block;
-    color:#f8f8f2;
-    font-family:'Fira Mono', monospace;
-    font-style:italic;
-    font-size:16px;
+header h1 {
+    color: #ff5555;
 }
 
-/* Pour que le carré soit bien centré*/
-#square{
-    text-align: center;
+header #links {
+    width: 100%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-/* Les petits carrés de couleur */
-#rouge{
-    color: #ff5555
-}
-#orange{
-    color: #ffb86c
-}
-#jaune{
-    color: #f1fa8c
-}
-#vert{
-    color: #50fa7b
-}
-#bleu{
-    color: #8be9fd
-}
-#violet{
-    color: #bd93f9
-}
-#rose{
-    color: #ff79c6
-}
+header #links a {
+    color: #f8f8f2;
+    text-decoration: none;
 
-h2{
-    display: inline;
-    font-family:'Fira Mono', monospace;
-    color:#50fa7b;
-    font-weight:bold;
-    font-size:20px;
-}
-.h2white{
-    display: inherit;
-    font-family:'Fira Mono', monospace;
-    color:#f8f8f2;
-    font-style:italic;
-    font-size:20px;
-
-}
-h3{
-    font-family:'Fira Mono', monospace;
-    color:#ff5555;
-    font-style:italic;
-    font-size:18px;
-}
-
-.competences{
-    text-align:center
-
-}
-.lien{
-    color:#8be9fd;
-    text-decoration: none
+    margin: 1em
 }
