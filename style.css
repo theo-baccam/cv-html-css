@@ -67,9 +67,47 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 1em;
 }
 
 #cv {
     width: 100%;
     max-width: 50em;
+}
+
+main a {
+    color: #8be9fd;
+    text-decoration: none;
+}
+
+.project {
+    background-color: #44475a;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+
+    width: 100%;
+    max-width: 50em;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.project div {
+    min-width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.project h2 {
+    color: #50fa7b
+}
+
+.project h3 {
+    color: #bd93f9
+}
+
+.project video {
+    max-width: 50%;
 }
