@@ -62,3 +62,14 @@ header #links a {
 
     margin: 1em
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cv {
+    width: 100%;
+    max-width: 50em;
+}
