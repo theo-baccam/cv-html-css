@@ -80,7 +80,7 @@ main a {
     text-decoration: none;
 }
 
-.project {
+article {
     background-color: #44475a;
     margin: 1em;
     padding: 1em;
@@ -93,21 +93,21 @@ main a {
     flex-direction: row;
 }
 
-.project div {
+article div {
     min-width: 50%;
 
     display: flex;
     flex-direction: column;
 }
 
-.project h2 {
+article h2 {
     color: #50fa7b
 }
 
-.project h3 {
+article h3 {
     color: #bd93f9
 }
 
-.project video {
+article video {
     max-width: 50%;
 }
